@@ -17,7 +17,7 @@ users:
     lock_passwd: true
     shell: /bin/bash
     ssh_authorized_keys:
-      - <ssh-pub-key>
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDRB53X/6WuNla6IDmSpo9l89qt1pWwp2PSEcpxe9yiXpBkvwvEifRox6ZsXQLlJV0OEWrgWXxRRDHfey0k0FKmYfPLnMl6+iW6FPNsMh1XQvTR9jM5TIzPKidwFSV2zy2bZnj0fo26G4oEvtvBkrp/bHaGb/9P6dYO4YLjyw3YN+DzHMiUP2nsTTr+hI5cL3mOQ7n+ikgy2FIikPzapcjdix6IfHQ+qlhBkMQ7EVOkLfZFWXjaBonXGbzIxyGovbcFhW6FVhWEobKOp0MZK0kzy8U8q1qsVcfzXzIHf/3VL7OlnTBdARrrvYwPeZvorHmxig9hVrN+HRdIW/b0ykgAJieMfi/VLsKxfeP38Nd4rquqdUg3XSkC0RchgnnehB2eaTKa9Qhs0d5DaEWeitfk0DQXUaCUFJeFprE+I79YFY1Zi7JKM8awEYBNSnDybZczkrITOYc4BmYD36MHTbs6sEFn99Z2nVnWVC+0e9P9znb56i5ur4sAHysOFbWoZ8c= pi
 
 packages:
 # so we can pre-fill hostname during configuration
