@@ -1,0 +1,27 @@
+ssh_pwauth: false
+
+groups:
+  - ubuntu: [root, sys]
+
+users:
+  - name: ubuntu
+    inactive: true
+
+users:
+  - default
+  - name: pi-Gee
+    gecos: pi-Gee1
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: sudo
+    ssh_import_id: None
+    lock_passwd: true
+    shell: /bin/bash
+    ssh_authorized_keys:
+      - <ssh-pub-key>
+
+packages:
+- avahi-daemon
+
+runcmd:
+  # Pickup the hostname changes
+  - 'systemctl restart avahi-daemon'
