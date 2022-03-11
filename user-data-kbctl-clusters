@@ -10,7 +10,7 @@ users:
 users:
   - default
   - name: pi-Gee
-    gecos: pi-Gee1
+    gecos: pi-Gee
     sudo: ALL=(ALL) NOPASSWD:ALL
     groups: sudo
     ssh_import_id: None
@@ -20,6 +20,7 @@ users:
       - <ssh-pub-key>
 
 packages:
+# so we can pre-fill hostname during configuration
 - avahi-daemon
 
 runcmd:
