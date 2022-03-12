@@ -1,3 +1,5 @@
+hostname: pi-Gee-0
+
 ssh_pwauth: false
 
 groups:
