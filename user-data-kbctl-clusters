@@ -1,4 +1,5 @@
 #cloud-config
+#Enter user hostname. This can be changed later
 hostname: pi-Gee-0
 
 ssh_pwauth: false
